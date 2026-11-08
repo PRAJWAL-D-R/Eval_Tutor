@@ -12,7 +12,7 @@ The system accepts a technical topic, generates a lesson structured for beginner
 
 The pipeline separates generation, evaluation, orchestration, and persistence into distinct modules. It enforces an explicit quality contract: rather than relying on self-reported quality scores from the generation model, a separate evaluation pass scores each checkpoint with a binary boolean and a grounded rationale. Final acceptance is calculated deterministically in application code (`all(checkpoints == True)`).
 
-![System Architecture Diagram](architecture_diagram.png)
+
 
 ```
                       +-------------------+
