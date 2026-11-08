@@ -1,27 +1,5 @@
-# Model provider (Gemini 2.5 Flash, generator + evaluator roles -- see CLAUDE.md)
-# NOTE: google-generativeai is deprecated upstream; google-genai is its replacement.
 google-genai>=1.0.0
-
-# Agent loop / orchestration
-langgraph>=0.2.0
-langchain>=0.3.0
-langchain-text-splitters>=0.3.0
-
-# Retrieval: Chroma + local MiniLM embeddings (ARCHITECTURE.md Section 1a)
-chromadb>=0.5.0
-langchain-chroma>=0.1.4
-sentence-transformers>=3.0.0
-tiktoken>=0.7.0
-
-# Structured output validation
-pydantic>=2.7.0
-
-# API layer (FastAPI thin wrapper, Swagger /docs as the UI)
-fastapi>=0.115.0
-uvicorn[standard]>=0.30.0
-
-# Tracing (LangSmith -- scaffolded from the start, see CLAUDE.md build step 15)
-langsmith>=0.1.100
-
-# Config
 python-dotenv>=1.0.0
+reportlab>=4.0.0
+markdown>=3.5.0
+pypdf>=5.0.0

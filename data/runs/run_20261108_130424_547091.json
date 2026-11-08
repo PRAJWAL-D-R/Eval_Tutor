@@ -1,0 +1,40 @@
+{
+  "topic": "Introduction to RAG (Retrieval-Augmented Generation)",
+  "final_status": "PASSED",
+  "overall_pass": true,
+  "total_attempts": 1,
+  "created_at": "2026-11-08T13:04:24.546946",
+  "attempts": [
+    {
+      "attempt": 0,
+      "lesson": "# Meet RAG: Giving AI a Search Tool\n\n## Part 1: The Problem with AI\n\nImagine you meet a very smart person. This person read almost every book in the world. They can write poems, code, and stories in seconds. \n\nNow, imagine you lock this person in an empty room. You do not let them use the internet. You do not let them look at any new books. Then, you ask them: \n\n> *\"What is the new rule our company made yesterday?\"*\n\nWhat happens? That smart person will panic. They do not know. But because they want to be helpful, they might just **guess** or make up an answer that sounds good. \n\nIn the computer world, we call this smart person an **AI** (short for Artificial Intelligence). An AI is a computer program that talks like a human. \n\nAI models are like our smart person in a locked room. They are trained on a massive amount of old information. But they have two big problems:\n1. **They forget new things:** They do not know private company documents, today's news, or what you wrote in your notebook this morning.\n2. **They make things up:** When they do not know an answer, they often invent facts. In the tech world, we call this **hallucinating** (making things up like a dream).\n\nHow do we fix this? How do we help the AI give us correct, up-to-date answers without making things up? \n\nThe answer is **RAG**.\n\n---\n\n## Part 2: What is RAG?\n\n**RAG** stands for **Retrieval-Augmented Generation**. \n\nDo not worry about these big words. Let us break them down into simple actions:\n* **Retrieval:** Finding the right page in a book or folder.\n* **Augmented:** Adding or helping.\n* **Generation:** Writing an answer.\n\nIn plain English, **RAG is an open-book exam for AI.**\n\nInstead of forcing the AI to rely only on its memory, RAG lets the AI look at your actual documents, manuals, or notes before it answers your question. \n\n---\n\n## Part 3: The Real-Life Example: The Master Chef\n\nTo see how RAG works, let us look at a real-life example. \n\nImagine you hire a world-famous Chef to cook in your restaurant. This Chef knows thousands of recipes from memory. \n\nOne day, you buy a secret family recipe book. You hand this book to the Chef and ask: *\"Make the special soup using the recipe on page 14.\"*\n\nWhat does the Chef do? Does the Chef just start cooking blindly from memory? \n\nNo! A good Chef follows these steps:\n1. **Reads the request:** The Chef listens to your question.\n2. **Searches (Retrieval):** The Chef flips open the secret recipe book, finds page 14, and reads it.\n3. **Prepares (Augmentation):** The Chef puts page 14 right next to the stove so they can look at the exact measurements.\n4. **Cooks and Serves (Generation):** The Chef follows those exact instructions and makes the soup for you.\n\nThis is exactly how **RAG** works inside a computer. \n\n---\n\n## Part 4: How RAG Works Step-by-Step\n\nWhen you use an AI with RAG, it does not just guess. It follows a teamwork process in the background. \n\nLet us say you type this question into your computer: \n> *\"What is our company's refund policy for broken shoes?\"*\n\nHere is what happens in three simple steps:\n\n### Step 1: The Search (Retrieval)\nThe computer does not ask the AI right away. Instead, it acts like a librarian. It quickly scans through all your company PDF files, emails, and manuals. It finds the exact document that talks about \"refund policy\" and pulls out just the relevant paragraph about shoes. \n\n### Step 2: The Setup (Augmentation)\nThe computer takes your original question *plus* that exact paragraph it just found, and hands them both to the AI together. It says: \n> *\"Here is the user's question, and here is the exact truth from our document. Please use **only** this information to write your answer.\"*\n\n### Step 3: The Answer (Generation)\nThe AI reads the correct paragraph and writes a clear, polite, and 100% accurate answer for you. It does not need to guess because the answer is sitting right in front of it.\n\n---\n\n## Part 5: Summary and Takeaway\n\nLet's review what we learned:\n\n* **The Problem:** AI is like a smart person locked in a room. It does not know your private documents and sometimes makes up false answers.\n* **What RAG is:** An \"open-book exam\" system for AI. \n* **Why it matters:** It lets AI read your specific documents first, so it gives you truthful, safe, and up-to-date answers.\n* **How it works:** It **Searches** for the right document, **Adds** it to your question, and **Generates** the correct answer. \n\nNext time you use a smart computer helper at work that accurately answers questions using your company files, you will know the secret behind it: **RAG** is doing the heavy lifting in the background!",
+      "result": {
+        "accurate_and_grounded": {
+          "pass": true,
+          "reason": "The lesson correctly explains RAG as retrieving external documents and providing them alongside the user query to the language model to ground the generation."
+        },
+        "beginner_friendly_language": {
+          "pass": true,
+          "reason": "The language uses simple vocabulary, short sentences, and relatable phrasing suitable for complete beginners."
+        },
+        "teaches_by_example": {
+          "pass": true,
+          "reason": "It uses two clear analogies/examples: the smart person locked in a room, and the Master Chef using a secret recipe book."
+        },
+        "no_unexplained_jargon": {
+          "pass": true,
+          "reason": "Technical terms like AI, Retrieval-Augmented Generation, and hallucinating are immediately defined in simple, everyday language."
+        },
+        "covers_key_points": {
+          "pass": true,
+          "reason": "The lesson clearly addresses what RAG is, why it matters (fixing hallucinations and lack of private context), and how it works step-by-step."
+        },
+        "coherent_teaching_flow": {
+          "pass": true,
+          "reason": "The narrative flows logically from the problem statement to the definition, analogies, step-by-step mechanics, and a final summary."
+        },
+        "overall_pass": true
+      }
+    }
+  ]
+}

@@ -1,31 +1,8 @@
-# Secrets
 .env
-
-# Python
+.venv/
 __pycache__/
 *.pyc
 *.pyo
-.venv/
-venv/
-*.egg-info/
-.pytest_cache/
-.mypy_cache/
-.coverage
-htmlcov/
-
-
-logs/*.json
-logs/*.log
-memory/*.json
-output/*.md
-output/*.json
-
-# Chroma
-chroma_db/
-*.sqlite3
-
-# OS / editor
+*.pyd
 .DS_Store
-Thumbs.db
-.idea/
-.vscode/
+

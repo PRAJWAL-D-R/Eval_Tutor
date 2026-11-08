@@ -1,0 +1,40 @@
+{
+  "topic": "Introduction to RAG",
+  "final_status": "PASSED",
+  "overall_pass": true,
+  "total_attempts": 1,
+  "created_at": "2026-11-08T13:21:42.680868",
+  "attempts": [
+    {
+      "attempt": 0,
+      "lesson": "# How Computers Find the Right Answers: A Beginner\u2019s Guide to RAG\n\n---\n\n## 1. The Beginning: The Smart Student with a Bad Memory\n\nImagine you have a friend who is a genius. This friend has read thousands of books. They can write poems, translate languages, and talk about almost anything. \n\nWe call this friend an **Artificial Intelligence** (which just means a computer program trained to think and talk like a human). \n\nNow, imagine you give your genius friend a very specific test. You ask them: \n> *\"What is the exact refund policy for the sweater I bought from your company yesterday?\"*\n\nWhat happens? \n\nYour friend panics a little bit. They remember a lot of general rules about refunds, but they do not know *your* specific receipt. They might guess the answer, or worse, they might make up a rule that sounds very confident, but is completely wrong. \n\nIn the world of computers, we call this wrong answer a \"hallucination.\" It is just a fancy way of saying the computer made things up because it forgot the facts.\n\nWhy does this happen? Because computer brains are trained on old information. They cannot see your private company files, your emails, or today's news unless you show them.\n\nTo fix this problem, smart engineers created a trick. They gave the computer a book to read *before* answering questions. \n\nThis trick is called **RAG**. \n\n*RAG* stands for **Retrieval-Augmented Generation**. \n\nDo not let those big words scare you. Let us break them down into simple everyday language:\n* **Retrieval:** Finding the right page in a stack of papers (like looking for a recipe in a cookbook).\n* **Augmented:** Adding new information to help.\n* **Generation:** Writing out the final answer.\n\nSimply put, **RAG is an open-book exam for computers.** \n\nInstead of forcing a computer to memorize everything, RAG lets the computer look up the exact facts right before it speaks to you.\n\n---\n\n## 2. The Middle: How RAG Works (Step-by-Step)\n\nLet us use a real-life story to see how RAG works. \n\nMeet **Maya**. Maya works at a hotel. Guests often ask her tricky questions, like: *\"What time is the gym open on Sundays, and am I allowed to bring my dog?\"*\n\nMaya has a huge manual of hotel rules, but it has 500 pages. She cannot memorize all of it. \n\nIf Maya uses **RAG**, she follows three simple steps to answer the guest. Let us watch her do it.\n\n### Step 1: The Guest Asks a Question\nThe guest asks: *\"Can I bring my dog to the gym?\"*\n\n### Step 2: Search and Find (Retrieval)\nInstead of guessing, Maya does not read the whole 500-page book. She uses a quick search tool. She types \"dog\" and \"gym\" into the computer folder. \n\nThe computer instantly finds **Page 42**. Page 42 says: *\"Dogs are welcome in the lobby, but dogs are not allowed in the gym.\"*\n\n### Step 3: Read and Answer (Generation)\nNow, Maya takes Page 42 and reads it. She combines this new fact with her friendly speaking skills. \n\nShe tells the guest: *\"Hello! According to our rules on Page 42, dogs are welcome in our lobby, but unfortunately, they are not allowed inside the gym.\"*\n\n---\n\n### How the Computer Does the Exact Same Thing\n\nWhen a computer uses RAG, it does the exact same three steps as Maya:\n\n1. **The Ask:** You type a question into the computer.\n2. **The Search:** The computer looks through its private documents (like your company files or a database) and pulls out only the pages that match your question. \n3. **The Answer:** The computer reads those specific pages and writes a helpful, accurate answer for you. It does not need to guess, because the facts are right in front of it.\n\n---\n\n## 3. The End: Why This Matters and Your Takeaway\n\n### Why is RAG so important?\n\nBefore RAG, if a company wanted an AI to know their private rules, they had to retrain the computer from scratch. This process took months and cost millions of dollars. Every time a rule changed, they had to start over.\n\nWith RAG, it is easy:\n* **No more guessing:** The computer looks at real documents, so it stops making things up.\n* **Always up to date:** If a rule changes tomorrow, you just swap out the old paper for a new one. The computer does not need to relearn everything.\n* **Private and Safe:** You can keep your private company documents hidden, and only let the computer look at them when someone asks a relevant question.\n\n### Summary Takeaway\n\n* **What it is:** RAG is an **open-book exam** for computers. \n* **The Problem it solves:** Computers often forget facts or make things up. \n* **How it works:** It **finds** the right document first, reads it, and then **generates** a true and helpful answer. \n\nNext time you chat with a helpful customer service robot online and it gives you the exact, correct link to your account details, you will know: that is RAG at work, looking up the right page just for you!",
+      "result": {
+        "accurate_and_grounded": {
+          "pass": true,
+          "reason": "The lesson correctly explains Retrieval-Augmented Generation, hallucination, and the separation of knowledge retrieval from text generation without technical errors."
+        },
+        "beginner_friendly_language": {
+          "pass": true,
+          "reason": "The text uses everyday analogies, short sentences, and plain language suitable for absolute beginners."
+        },
+        "teaches_by_example": {
+          "pass": true,
+          "reason": "It uses the relatable story of Maya at a hotel to walk step-by-step through the RAG process."
+        },
+        "no_unexplained_jargon": {
+          "pass": true,
+          "reason": "Terms like Artificial Intelligence, RAG, Retrieval, Augmented, and Generation are clearly defined immediately upon introduction."
+        },
+        "covers_key_points": {
+          "pass": true,
+          "reason": "The lesson explicitly covers what RAG is (open-book exam), why it matters (stops guessing, keeps information updated, private), and how it works (the 3 steps)."
+        },
+        "coherent_teaching_flow": {
+          "pass": true,
+          "reason": "The text is structured logically into a clear Beginning, Middle, and End with dedicated sections for concepts, examples, and summaries."
+        },
+        "overall_pass": true
+      }
+    }
+  ]
+}

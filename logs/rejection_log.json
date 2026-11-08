@@ -1,0 +1,58 @@
+[
+  {
+    "topic": "Introduction to RAG (Retrieval-Augmented Generation)",
+    "attempt_number": 1,
+    "timestamp": "2026-11-08T13:01:10.104804",
+    "failed_checkpoints": [
+      "beginner_friendly_language",
+      "teaches_by_example",
+      "no_unexplained_jargon",
+      "coherent_teaching_flow"
+    ],
+    "failure_reasons": {
+      "beginner_friendly_language": "The text uses heavily academic and dense vocabulary like 'epistemic closure', 'parametric memory', and 'autoregressive transformer decoder' which is unsuitable for absolute beginners.",
+      "teaches_by_example": "The lesson relies entirely on abstract theoretical descriptions and contains no concrete worked examples, scenarios, or analogies.",
+      "no_unexplained_jargon": "Multiple advanced technical terms (e.g., bi-encoder, FAISS, Pinecone, dense vector embeddings) are introduced and used without plain-language definitions.",
+      "coherent_teaching_flow": "The narrative lacks a structured beginning, middle, and end, reading instead like a dense paragraph from an academic paper without a clear recap or learning takeaway."
+    },
+    "what_changed_on_next_try": "Prompt updated for Attempt 2 with corrective instructions addressing: beginner_friendly_language, teaches_by_example, no_unexplained_jargon, coherent_teaching_flow"
+  },
+  {
+    "topic": "Introduction to RAG (Retrieval-Augmented Generation)",
+    "attempt_number": 1,
+    "timestamp": "2026-11-08T13:09:00.795634",
+    "failed_checkpoints": [
+      "beginner_friendly_language",
+      "teaches_by_example",
+      "no_unexplained_jargon",
+      "covers_key_points",
+      "coherent_teaching_flow"
+    ],
+    "failure_reasons": {
+      "beginner_friendly_language": "The language is extremely dense, academic, and uses advanced vocabulary, making it completely inaccessible to absolute beginners.",
+      "teaches_by_example": "The lesson lacks any concrete worked examples, real-world scenarios, or analogies to illustrate the concept.",
+      "no_unexplained_jargon": "Heavy technical jargon like 'parametric memory degradation', 'contrastive divergence loss', and 'epistemic bottleneck' are used without simple definitions.",
+      "covers_key_points": "While it touches on what RAG is and how it works mechanistically, it lacks a clear, explicit explanation of why it matters in practical, easy-to-understand terms.",
+      "coherent_teaching_flow": "The text reads like an excerpt from a research paper rather than a structured lesson with a clear pedagogical beginning, middle, and end."
+    },
+    "what_changed_on_next_try": "Prompt updated for Attempt 2 with corrective instructions addressing: beginner_friendly_language, teaches_by_example, no_unexplained_jargon, covers_key_points, coherent_teaching_flow"
+  },
+  {
+    "topic": "explain five pillars of java",
+    "attempt_number": 1,
+    "timestamp": "2026-11-08T13:09:43.217220",
+    "failed_checkpoints": [
+      "beginner_friendly_language",
+      "teaches_by_example",
+      "no_unexplained_jargon",
+      "coherent_teaching_flow"
+    ],
+    "failure_reasons": {
+      "beginner_friendly_language": "The text uses heavily pretentious and dense academic jargon ('pedagogical module', 'explicate the fundamental quintessence', 'epistemological efficacy', 'eschew pedestrian vernacular') making it entirely unsuitable for absolute beginners.",
+      "teaches_by_example": "The lesson lacks any concrete code examples, end-to-end worked examples, or relatable analogies.",
+      "no_unexplained_jargon": "Complex terms like 'heterogeneous interoperability', 'ontological pillars', 'deterministic heuristic subsystem', and 'object graphs' are used without proper, simple definitions for beginners.",
+      "coherent_teaching_flow": "While it has a beginning, middle, and end structure, the complete lack of examples or beginner-accessible language breaks the core pedagogical flow."
+    },
+    "what_changed_on_next_try": "Prompt updated for Attempt 2 with corrective instructions addressing: beginner_friendly_language, teaches_by_example, no_unexplained_jargon, coherent_teaching_flow"
+  }
+]

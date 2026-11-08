@@ -1,0 +1,40 @@
+{
+  "topic": "Introduction to RAG (Retrieval-Augmented Generation)",
+  "final_status": "PASSED",
+  "overall_pass": true,
+  "total_attempts": 1,
+  "created_at": "2026-11-08T13:56:07.917490",
+  "attempts": [
+    {
+      "attempt": 0,
+      "lesson": "# Lesson: What is RAG? (How Computers Find the Right Facts to Answer Questions)\n\n## 1. The Beginning: The Smart Student and the Closed Book\n\nImagine you are taking a very hard history test. \n\nYou have a classmate named Alex. Alex has a super-human memory. Alex read every history book in the world before coming to school. But there is a catch: Alex graduated school last year and has not read the news or your school's private club rules since then.\n\nWhen you ask Alex a question about a book they read, they give a brilliant answer. But when you ask Alex about what happened in your school cafeteria yesterday, Alex gets confused. Sometimes, Alex just guesses and makes up a fake story that sounds believable, but is totally wrong. \n\nToday, computer programs (often called Artificial Intelligence, or AI) act a lot like Alex. \n\nThese computer programs have read vast amounts of text from the internet. They can write poems, translate languages, and talk to you. But they have two big problems:\n1. They do not know private information (like your company's documents or your personal notes).\n2. They do not know things that happened today. \n3. When they do not know an answer, they do not say \"I do not know.\" Instead, they invent a pretty lie. In the tech world, we call this **hallucinating** (making things up out of thin air).\n\nHow do we fix this? How do we help the computer give true, helpful answers using the right facts?\n\nThe answer is a method called **RAG**. \n\n**RAG** stands for **Retrieval-Augmented Generation**. \n* Do not let those big words scare you. \n* **Retrieval** means \"go and find the right paper.\"\n* **Augmented** means \"helped out\" or \"given extra power.\"\n* **Generation** means \"writing the answer.\"\n\nPut it all together, and RAG simply means: **Giving the computer a library card and a book to look at before it writes an answer.**\n\n---\n\n## 2. The Middle: The Chef and the Recipe Book\n\nLet us use a simple, real-life example to see how RAG works.\n\nImagine you visit a restaurant. You ask the chef a very specific question: *\"What ingredients are in today's secret family soup, and is there any peanut in it? I am deeply allergic.\"*\n\n### Step 1: The Old Way (Without RAG)\nIf the chef relies only on memory (like our classmate Alex), the chef might panic. They might forget the exact ingredients and guess, *\"Uh, yes, it is safe!\"* That is dangerous because of your allergy. \n\n### Step 2: The RAG Way (Step-by-Step)\nNow, watch how a smart restaurant uses **RAG** to keep you safe:\n\n* **Step A: The Search (Retrieval)**\n  When you ask about the soup, the chef does not guess. Instead, the restaurant manager runs to the kitchen shelf. The manager looks through a big binder of daily recipes and pulls out the exact page titled: *\"Today's Soup Recipe.\"* \n\n* **Step B: Bringing the Facts Together (Augmentation)**\n  The manager takes that recipe page and hands it directly to the chef, along with your question. Now, the chef has the question *and* the exact truth right in front of their eyes.\n\n* **Step C: Writing the Answer (Generation)**\n  The chef reads the recipe page and says to you: *\"I checked today's recipe card. The soup has carrots, broth, and chicken. There are no peanuts listed here. It is safe for you.\"*\n\nThat is RAG! Instead of letting the computer guess from memory, RAG forces the computer to **look up the facts first**, and **then write the answer** based only on those facts.\n\n---\n\n## 3. How RAG Works Inside the Computer\n\nWhen computer engineers build a RAG system, they set up a three-step pipeline. Think of it like a smart office assistant:\n\n1. **The Filing Cabinet (The Knowledge Base):**\n   First, you gather all the documents the computer needs to know about. This could be your company's employee handbook, medical guidelines, or school textbooks. You store these documents in a digital folder.\n\n2. **The Search Dog (The Retriever):**\n   When a user types a question (\"How do I ask for vacation days?\"), the computer does not start talking right away. First, it acts like a search dog. It sniffs through the digital filing cabinet and pulls out the exact two pages that talk about vacation days.\n\n3. **The Writer (The Generator):**\n   Finally, the computer takes the user's question *plus* those two specific pages. It reads them together and writes a polite, accurate, summary answer for the user. If the answer is not in the documents, the computer is programmed to say: *\"I looked through the files, but I cannot find that information.\"* This stops the computer from lying.\n\n---\n\n## 4. The End: Recap and Takeaway\n\nLet's review what we learned:\n\n* **The Problem:** Computers (AI) are great at talking, but they have bad memory, do not know private documents, and love to make up false answers (hallucinate).\n* **What RAG is:** A technique where the computer searches for the right documents *before* it writes an answer.\n* **Why it matters:** It keeps answers truthful, up-to-date, and grounded in real facts (like a chef checking a recipe book instead of guessing).\n\n**The Big Takeaway:** \nRAG turns a computer from a smooth-talking guesser into a careful researcher. It ensures that whenever an AI speaks, it has the right book open in front of it.",
+      "result": {
+        "accurate_and_grounded": {
+          "pass": true,
+          "reason": "The lesson correctly explains RAG as a mechanism to retrieve external documents and feed them to a generator to reduce hallucinations and inject private/up-to-date knowledge."
+        },
+        "beginner_friendly_language": {
+          "pass": true,
+          "reason": "The text uses extremely accessible phrasing, short sentences, and everyday vocabulary appropriate for absolute beginners."
+        },
+        "teaches_by_example": {
+          "pass": true,
+          "reason": "It includes two vivid analogies/examples: the classmate Alex taking a history test, and the chef checking a recipe book for an allergic customer."
+        },
+        "no_unexplained_jargon": {
+          "pass": true,
+          "reason": "All terms such as RAG, Retrieval, Augmented, Generation, and hallucination are explicitly defined in simple terms upon introduction."
+        },
+        "covers_key_points": {
+          "pass": true,
+          "reason": "It explicitly covers what RAG is, why it matters (fixing hallucinations and lack of private/recent data), and how it works (filing cabinet, search dog, writer)."
+        },
+        "coherent_teaching_flow": {
+          "pass": true,
+          "reason": "The lesson is clearly structured into a Beginning, Middle, and End with a logical progression from problem to solution to workflow to recap."
+        },
+        "overall_pass": true
+      }
+    }
+  ]
+}

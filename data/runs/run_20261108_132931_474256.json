@@ -1,0 +1,40 @@
+{
+  "topic": "Introduction to RAG (Retrieval-Augmented Generation)",
+  "final_status": "PASSED",
+  "overall_pass": true,
+  "total_attempts": 1,
+  "created_at": "2026-11-08T13:29:31.474135",
+  "attempts": [
+    {
+      "attempt": 0,
+      "lesson": "# Meet Your Smart Assistant: An Introduction to RAG\n\n## The Beginning: The Smart Student Who Forgot the Rules\n\nImagine you have a friend. Let's call him AI. \n\nAI has read almost every book in the world. He went to school for many years. He can write poems, translate languages, and talk about stars and planets. \n\nBut AI has one big problem. He has a bad memory for new things. \n\nSuppose your company writes a brand-new rulebook today. It says how to ask for a holiday. If you ask AI, *\"What is the holiday rule for my job?\"* what happens? \n\nAI does not know your company's new rulebook. He was not there when it was written. Instead of saying, \"I do not know,\" AI will often **guess**. He will make up an answer that sounds good, but is completely wrong. \n\nIn the computer world, we call this **hallucination**. Just like a tired person seeing things that are not there, AI makes up facts out of thin air. \n\nThis is a big problem. How can we fix it? How can we help AI give us true, correct answers based on *our* private papers and books?\n\nThe answer is a clever trick called **RAG**. \n\n---\n\n## The Middle: What is RAG and How Does It Work?\n\n**RAG** stands for **Retrieval-Augmented Generation**. \n\nDo not let these big words scare you. Let's break them down into simple pieces:\n*   **Retrieval:** Finding the right paper in a pile of files.\n*   **Augmented:** Adding extra help or information.\n*   **Generation:** Writing an answer using words.\n\nPut it all together, and RAG simply means: **Look up the right information first, and then write the answer.**\n\n### The Best Analogy: The Open-Book Exam\n\nThink about school. \n\nSome tests are **closed-book exams**. You must memorize everything in your head before you walk into the room. If you forget a fact, you fail. This is how normal AI works. \n\nOther tests are **open-book exams**. You do not need to memorize the book. When the teacher asks a hard question, you open your notebook, find the exact page, read it, and then write down the correct answer. \n\n**RAG is an open-book exam for AI.**\n\n### Step-by-Step: How RAG Works\n\nLet us trace what happens when you ask a RAG-powered system a question. \n\nImagine you work at a coffee shop. You want to know the rule for making iced tea. \n\n1.  **You ask the question:** You type into the computer: *\"How do we make iced tea?\"*\n2.  **The Search (Retrieval):** The computer does not guess. Instead, it runs quickly to the filing cabinet. It looks through your shop's recipe book and finds the exact page titled \"Iced Tea Rules.\" \n3.  **The Hand-off (Augmented):** The computer takes that recipe page and hands it to the AI. It says: *\"Here, do not guess. Read this exact paper.\"*\n4.  **The Final Answer (Generation):** The AI reads the recipe page right in front of it. Then, it writes a clear, polite message back to you: *\"According to page 4 of our recipe book, you put two tea bags in cold water for five minutes.\"*\n\nBecause the AI looked at the real book first, it did not lie. It gave you the exact, true answer.\n\n---\n\n## The End: Summary and Takeaway\n\nLet us look back at what we learned today.\n\n*   **The Problem:** Normal AI is like a smart student who tries to guess answers when it does not know the local facts. It can make things up (hallucinate).\n*   **What RAG Is:** An \"open-book exam\" helper for AI. \n*   **How It Works:** It searches for the right document first, gives that document to the AI, and lets the AI write a safe, true answer based only on that text.\n\n**Why does this matter to you?**\nBecause of RAG, businesses can use AI safely. You can connect AI to your company's private files, your school books, or your personal notes. The AI will stop guessing and start giving you real, helpful answers you can trust.",
+      "result": {
+        "accurate_and_grounded": {
+          "pass": true,
+          "reason": "The content accurately explains RAG, retrieval, generation, and hallucination without technical errors."
+        },
+        "beginner_friendly_language": {
+          "pass": true,
+          "reason": "Uses very simple, direct language, plain sentences, and accessible vocabulary suited for absolute beginners."
+        },
+        "teaches_by_example": {
+          "pass": true,
+          "reason": "Uses the open-book exam analogy and the coffee shop iced tea scenario to clearly illustrate how RAG works."
+        },
+        "no_unexplained_jargon": {
+          "pass": true,
+          "reason": "All terms like RAG, Retrieval, Augmented, Generation, and hallucination are clearly broken down and defined at first use."
+        },
+        "covers_key_points": {
+          "pass": true,
+          "reason": "Explicitly covers what RAG is, why it matters (fixing hallucinations for private files/businesses), and how it works step-by-step."
+        },
+        "coherent_teaching_flow": {
+          "pass": true,
+          "reason": "Follows a clear narrative structure with a Beginning (the problem), Middle (definition and example), and End (summary)."
+        },
+        "overall_pass": true
+      }
+    }
+  ]
+}

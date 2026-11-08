@@ -1,0 +1,17 @@
+{
+  "total_runs_analyzed": 9,
+  "checkpoint_failure_counts": {
+    "teaches_by_example": 3,
+    "no_unexplained_jargon": 3,
+    "coherent_teaching_flow": 3,
+    "beginner_friendly_language": 3,
+    "covers_key_points": 1
+  },
+  "standing_instructions": [
+    "Note: Past lessons lacked clear practical illustration. Include a complete, concrete, step-by-step example or relatable analogy.",
+    "Note: Past lessons contained unexplained jargon. Define every technical term in simple language before or immediately upon using it.",
+    "Note: Past lessons suffered from disjointed flow. Ensure a clear beginning -> middle -> end narrative that a beginner can follow from start to finish.",
+    "Note: Past lessons have repeatedly failed on beginner-friendly language. Use shorter sentences, everyday words, and avoid complex or academic phrasing."
+  ],
+  "last_updated": "2026-11-08T13:56:08.032026"
+}
